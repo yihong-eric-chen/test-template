@@ -1,0 +1,33 @@
+// Group 0:disable both chat and inline suggestions AI features
+{
+    "chat.disableAIFeatures": true
+}
+  
+// Group 1:enable chat only
+// {
+//     "chat.disableAIFeatures": false,
+//     "github.copilot.enable": {
+//       "*": false
+//     },
+//     "github.copilot.nextEditSuggestions.enabled": false,
+
+// }
+
+// Group 2:enable inline suggestions only
+// {
+//     "chat.disableAIFeatures": false,
+//     "github.copilot.enable": {
+//       "*": false
+//     },
+//     "github.copilot.nextEditSuggestions.enabled": true
+//   }
+
+// Group 3: enable both chat and inline suggestions
+// {
+//     "chat.disableAIFeatures": false,
+//     "github.copilot.enable": {
+//       "*": true
+//     },
+//     "github.copilot.nextEditSuggestions.enabled": true
+//   }
+  
